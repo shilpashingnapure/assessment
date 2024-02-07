@@ -11,7 +11,7 @@ services:
   frontend:
     container_name: "frontend"
     restart: always
-    build: "./frontend"
+    build: "./frontend-assements"
     ports:
       - 3000:3000
 
