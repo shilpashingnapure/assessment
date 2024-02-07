@@ -1,0 +1,50 @@
+.navbar{
+    position: sticky;
+    top:0;
+    z-index:99;
+}
+
+.container{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.feed-container{
+    height: auto;
+    overflow: auto;
+    height:90vh;
+    padding-bottom: 60px;
+}
+
+.no-post{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding:9px 16px;
+    width: 100%;
+    gap:6px;
+    
+}
+
+.comment-box{
+    padding:6px 8px;
+    border-radius:5px;
+}
+
+.comment-box h5{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+
+.header{
+    padding: 10px 12px;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+.active{
+    background-color: aqua;
+}
